@@ -1,0 +1,14 @@
+recipe.css
+body { background-color: black; color: red; }
+
+p { font-size: .90em; font-family: Arial; }
+
+h1{ font-size: 1.25em; font-weight: bold;
+	text-transform: uppercase;}
+
+h2{ font-size: 1.25em; font-weight: bold; 
+	font-family: Arial;}
+
+li { font-size: .90em; font-family: Arial;
+	margin: 10px;}
+	
