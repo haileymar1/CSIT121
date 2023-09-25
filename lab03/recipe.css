@@ -1,0 +1,26 @@
+
+body { background-color: black; color: red; }
+body { 
+	background-image: url("colombianflag.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+
+p { font-size: .90em; font-family: Arial; }
+
+h1{ font-size: 1.25em; font-weight: bold;
+	text-transform: uppercase;}
+
+h2{ font-size: 1.25em; font-weight: bold; 
+	font-family: Arial;}
+
+li { font-size: .90em; font-family: Arial;
+	margin: 10px;}
+#container { background-color: #FF00FF;
+             padding: 1.20em;
+             width: 75%; min-width: 700px;
+ max-width: 940px
+             ;margin-left: auto 
+             ;margin-right: auto; 
+             box-shadow: 5px 5px 5px #333}
+h1 { text-shadow: 1px 1px 0 #ccc; }
