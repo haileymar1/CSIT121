@@ -1,0 +1,103 @@
+@media screen and (max-width: 768px) { body { 
+	background-color: darkgray; font-size: 1.0em; color: red; } 
+	p { width: 60%; } } 
+body { background-color: lightgrey; color: black; }
+body { 
+	background-image: url("colombianflag.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+
+p { 
+	font-size: .90em; font-family: Arial; }
+
+h1{ 
+	font-size: 1.25em; font-weight: bold;
+	text-transform: uppercase; margin: 20px 40px 10px 20px;
+}
+h2{ font-size: 1.25em; font-weight: bold; 
+	font-family: Arial; text-align: center; padding: 20px;
+margin-bottom: 50px;}
+
+li { font-size: .90em; font-family: Arial;
+	margin: 10px;}
+.container {
+             padding: 1.20em;
+             width: 75%; min-width: 700px;
+ max-width: 940px
+             ;margin-left: auto 
+             ;margin-right: auto; 
+             box-shadow: 5px 5px 5px #333}
+h1 { 
+	text-shadow: 1px 1px 0 #ccc; 
+	text-align: center; 
+	padding: 15px}
+
+.container{ 
+	display:flex;}
+
+.ingredients{ padding: 20px; }
+a:hover { color: blue;
+	text-decoration: underline;}
+
+table { 
+	border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+th, td { border: 1px solid black; padding: 0.5em; } 
+th { font-weight: bold; text-align: left; } 
+.one { 
+	text-align: left; vertical-align: middle; } 
+.two { text-align: left; }
+td { 
+	text-align: left; vertical-align: middle; } 
+td[colspan="2"] {
+	font-weight: bold; } 
+
+.contact-form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;}
+
+.form-group {
+    margin-bottom: 20px;}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; }
+
+select[multiple] {
+    height: 120px;}
+
+.form-buttons {
+    text-align: center;}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;}
+
+input[type="reset"] {
+    background-color: red;}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: darkblue;}
+
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+    outline: none;}
